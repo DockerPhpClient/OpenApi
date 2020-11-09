@@ -1,0 +1,2670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+            <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+                <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+        <script src="js/search.js"></script>
+        <script defer src="js/searchIndex.js"></script>
+    </head>
+<body id="top">
+    <header class="phpdocumentor-header phpdocumentor-section">
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">Documentation</a></h1>
+    <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
+    <label class="phpdocumentor-header__menu-icon" for="menu-button">
+        <i class="fas fa-bars"></i>
+    </label>
+    <section data-search-form class="phpdocumentor-search">
+    <label>
+        <span class="visually-hidden">Search for</span>
+        <svg class="phpdocumentor-search__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12.4892" y1="12.2727" x2="19.1559" y2="18.9393" stroke="currentColor" stroke-width="3"/>
+        </svg>
+        <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+    </label>
+</section>
+
+    <nav class="phpdocumentor-topnav">
+    <ul class="phpdocumentor-topnav__menu">
+        </ul>
+</nav>
+</header>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+<label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+    Menu
+</label>
+<aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+        
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                                <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/docker.html"><abbr title="\Docker">Docker</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="namespaces/docker-openapi.html"><abbr title="\Docker\OpenAPI">OpenAPI</abbr></a></li>
+                                    </ul>
+                        </section>
+
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/docker.html">Docker</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/docker-openapi.html">OpenAPI</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/docker-openapi-model.html">Model</a></li>
+    </ul>
+
+    <article class="phpdocumentor-element -class">
+        <h2 class="phpdocumentor-content__title">
+    NetworkSettings
+
+    
+    
+    
+    </h2>
+
+        <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">13</span>
+</aside>
+
+        
+
+
+
+
+
+
+
+
+<h3 id="toc">
+    Table of Contents
+    <a href="#toc" class="headerlink"><i class="fas fa-link"></i></a>
+</h3>
+
+<dl class="phpdocumentor-table-of-contents">
+                <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_bridge">$bridge</a>
+    <span>
+                &nbsp;: string|null            </span>
+</dt>
+<dd>Name of the network&#039;a bridge (for example, `docker0`).</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_endpointID">$endpointID</a>
+    <span>
+                &nbsp;: string|null            </span>
+</dt>
+<dd>EndpointID uniquely represents a service endpoint in a Sandbox.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_gateway">$gateway</a>
+    <span>
+                &nbsp;: string|null            </span>
+</dt>
+<dd>Gateway address for the default &quot;bridge&quot; network.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_globalIPv6Address">$globalIPv6Address</a>
+    <span>
+                &nbsp;: string|null            </span>
+</dt>
+<dd>Global IPv6 address for the default &quot;bridge&quot; network.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_globalIPv6PrefixLen">$globalIPv6PrefixLen</a>
+    <span>
+                &nbsp;: int|null            </span>
+</dt>
+<dd>Mask length of the global IPv6 address.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_hairpinMode">$hairpinMode</a>
+    <span>
+                &nbsp;: bool|null            </span>
+</dt>
+<dd>Indicates if hairpin NAT should be enabled on the virtual interface.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_iPAddress">$iPAddress</a>
+    <span>
+                &nbsp;: string|null            </span>
+</dt>
+<dd>IPv4 address for the default &quot;bridge&quot; network.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_iPPrefixLen">$iPPrefixLen</a>
+    <span>
+                &nbsp;: int|null            </span>
+</dt>
+<dd>Mask length of the IPv4 address.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_iPv6Gateway">$iPv6Gateway</a>
+    <span>
+                &nbsp;: string|null            </span>
+</dt>
+<dd>IPv6 gateway address for this network.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_linkLocalIPv6Address">$linkLocalIPv6Address</a>
+    <span>
+                &nbsp;: string|null            </span>
+</dt>
+<dd>IPv6 unicast address using the link-local prefix.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_linkLocalIPv6PrefixLen">$linkLocalIPv6PrefixLen</a>
+    <span>
+                &nbsp;: int|null            </span>
+</dt>
+<dd>Prefix length of the IPv6 unicast address.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_macAddress">$macAddress</a>
+    <span>
+                &nbsp;: string|null            </span>
+</dt>
+<dd>MAC address for the container on the default &quot;bridge&quot; network.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_networks">$networks</a>
+    <span>
+                &nbsp;: array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-EndpointSettings.html"><abbr title="\Docker\OpenAPI\Model\EndpointSettings">EndpointSettings</abbr></a>&gt;|null            </span>
+</dt>
+<dd>Information about all networks that the container is connected to.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_ports">$ports</a>
+    <span>
+                &nbsp;: array&lt;string|int, array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-PortBinding.html"><abbr title="\Docker\OpenAPI\Model\PortBinding">PortBinding</abbr></a>&gt;&gt;|null            </span>
+</dt>
+<dd>PortMap describes the mapping of container ports to host ports, using the.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_sandboxID">$sandboxID</a>
+    <span>
+                &nbsp;: string|null            </span>
+</dt>
+<dd>SandboxID uniquely represents a container&#039;s network stack.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_sandboxKey">$sandboxKey</a>
+    <span>
+                &nbsp;: string|null            </span>
+</dt>
+<dd>SandboxKey identifies the sandbox.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_secondaryIPAddresses">$secondaryIPAddresses</a>
+    <span>
+                &nbsp;: array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-Address.html"><abbr title="\Docker\OpenAPI\Model\Address">Address</abbr></a>&gt;|null            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_secondaryIPv6Addresses">$secondaryIPv6Addresses</a>
+    <span>
+                &nbsp;: array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-Address.html"><abbr title="\Docker\OpenAPI\Model\Address">Address</abbr></a>&gt;|null            </span>
+</dt>
+<dd></dd>
+
+                <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getBridge">getBridge()</a>
+    <span>
+                        &nbsp;: string|null    </span>
+</dt>
+<dd>Name of the network&#039;a bridge (for example, `docker0`).</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getEndpointID">getEndpointID()</a>
+    <span>
+                        &nbsp;: string|null    </span>
+</dt>
+<dd>EndpointID uniquely represents a service endpoint in a Sandbox.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getGateway">getGateway()</a>
+    <span>
+                        &nbsp;: string|null    </span>
+</dt>
+<dd>Gateway address for the default &quot;bridge&quot; network.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getGlobalIPv6Address">getGlobalIPv6Address()</a>
+    <span>
+                        &nbsp;: string|null    </span>
+</dt>
+<dd>Global IPv6 address for the default &quot;bridge&quot; network.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getGlobalIPv6PrefixLen">getGlobalIPv6PrefixLen()</a>
+    <span>
+                        &nbsp;: int|null    </span>
+</dt>
+<dd>Mask length of the global IPv6 address.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getHairpinMode">getHairpinMode()</a>
+    <span>
+                        &nbsp;: bool|null    </span>
+</dt>
+<dd>Indicates if hairpin NAT should be enabled on the virtual interface.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getIPAddress">getIPAddress()</a>
+    <span>
+                        &nbsp;: string|null    </span>
+</dt>
+<dd>IPv4 address for the default &quot;bridge&quot; network.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getIPPrefixLen">getIPPrefixLen()</a>
+    <span>
+                        &nbsp;: int|null    </span>
+</dt>
+<dd>Mask length of the IPv4 address.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getIPv6Gateway">getIPv6Gateway()</a>
+    <span>
+                        &nbsp;: string|null    </span>
+</dt>
+<dd>IPv6 gateway address for this network.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getLinkLocalIPv6Address">getLinkLocalIPv6Address()</a>
+    <span>
+                        &nbsp;: string|null    </span>
+</dt>
+<dd>IPv6 unicast address using the link-local prefix.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getLinkLocalIPv6PrefixLen">getLinkLocalIPv6PrefixLen()</a>
+    <span>
+                        &nbsp;: int|null    </span>
+</dt>
+<dd>Prefix length of the IPv6 unicast address.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getMacAddress">getMacAddress()</a>
+    <span>
+                        &nbsp;: string|null    </span>
+</dt>
+<dd>MAC address for the container on the default &quot;bridge&quot; network.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getNetworks">getNetworks()</a>
+    <span>
+                        &nbsp;: array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-EndpointSettings.html"><abbr title="\Docker\OpenAPI\Model\EndpointSettings">EndpointSettings</abbr></a>&gt;|null    </span>
+</dt>
+<dd>Information about all networks that the container is connected to.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getPorts">getPorts()</a>
+    <span>
+                        &nbsp;: array&lt;string|int, array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-PortBinding.html"><abbr title="\Docker\OpenAPI\Model\PortBinding">PortBinding</abbr></a>&gt;&gt;|null    </span>
+</dt>
+<dd>PortMap describes the mapping of container ports to host ports, using the.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getSandboxID">getSandboxID()</a>
+    <span>
+                        &nbsp;: string|null    </span>
+</dt>
+<dd>SandboxID uniquely represents a container&#039;s network stack.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getSandboxKey">getSandboxKey()</a>
+    <span>
+                        &nbsp;: string|null    </span>
+</dt>
+<dd>SandboxKey identifies the sandbox.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getSecondaryIPAddresses">getSecondaryIPAddresses()</a>
+    <span>
+                        &nbsp;: array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-Address.html"><abbr title="\Docker\OpenAPI\Model\Address">Address</abbr></a>&gt;|null    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getSecondaryIPv6Addresses">getSecondaryIPv6Addresses()</a>
+    <span>
+                        &nbsp;: array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-Address.html"><abbr title="\Docker\OpenAPI\Model\Address">Address</abbr></a>&gt;|null    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setBridge">setBridge()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Name of the network&#039;a bridge (for example, `docker0`).</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setEndpointID">setEndpointID()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>EndpointID uniquely represents a service endpoint in a Sandbox.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setGateway">setGateway()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Gateway address for the default &quot;bridge&quot; network.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setGlobalIPv6Address">setGlobalIPv6Address()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Global IPv6 address for the default &quot;bridge&quot; network.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setGlobalIPv6PrefixLen">setGlobalIPv6PrefixLen()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Mask length of the global IPv6 address.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setHairpinMode">setHairpinMode()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Indicates if hairpin NAT should be enabled on the virtual interface.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setIPAddress">setIPAddress()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>IPv4 address for the default &quot;bridge&quot; network.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setIPPrefixLen">setIPPrefixLen()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Mask length of the IPv4 address.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setIPv6Gateway">setIPv6Gateway()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>IPv6 gateway address for this network.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setLinkLocalIPv6Address">setLinkLocalIPv6Address()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>IPv6 unicast address using the link-local prefix.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setLinkLocalIPv6PrefixLen">setLinkLocalIPv6PrefixLen()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Prefix length of the IPv6 unicast address.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setMacAddress">setMacAddress()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>MAC address for the container on the default &quot;bridge&quot; network.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setNetworks">setNetworks()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Information about all networks that the container is connected to.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setPorts">setPorts()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>PortMap describes the mapping of container ports to host ports, using the.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setSandboxID">setSandboxID()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>SandboxID uniquely represents a container&#039;s network stack.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setSandboxKey">setSandboxKey()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>SandboxKey identifies the sandbox.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setSecondaryIPAddresses">setSecondaryIPAddresses()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setSecondaryIPv6Addresses">setSecondaryIPv6Addresses()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd></dd>
+
+        </dl>
+
+
+
+        
+
+        
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_bridge">
+        $bridge
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_bridge" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">20</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Name of the network&#039;a bridge (for example, `docker0`).</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">string|null</span>
+    <span class="phpdocumentor-signature__name">$bridge</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_endpointID">
+        $endpointID
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_endpointID" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">74</span>
+</aside>
+
+        <p class="phpdocumentor-summary">EndpointID uniquely represents a service endpoint in a Sandbox.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">string|null</span>
+    <span class="phpdocumentor-signature__name">$endpointID</span>
+    </code>
+
+        <section class="phpdocumentor-description"><p><br /></p>
+<blockquote>
+<p><strong>Deprecated</strong>: This field is only propagated when attached to the</p>
+</blockquote>
+</section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_gateway">
+        $gateway
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_gateway" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">84</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Gateway address for the default &quot;bridge&quot; network.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">string|null</span>
+    <span class="phpdocumentor-signature__name">$gateway</span>
+    </code>
+
+        <section class="phpdocumentor-description"><p><br /></p>
+<blockquote>
+<p><strong>Deprecated</strong>: This field is only propagated when attached to the</p>
+</blockquote>
+</section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_globalIPv6Address">
+        $globalIPv6Address
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_globalIPv6Address" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">94</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Global IPv6 address for the default &quot;bridge&quot; network.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">string|null</span>
+    <span class="phpdocumentor-signature__name">$globalIPv6Address</span>
+    </code>
+
+        <section class="phpdocumentor-description"><p><br /></p>
+<blockquote>
+<p><strong>Deprecated</strong>: This field is only propagated when attached to the</p>
+</blockquote>
+</section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_globalIPv6PrefixLen">
+        $globalIPv6PrefixLen
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_globalIPv6PrefixLen" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">104</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Mask length of the global IPv6 address.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">int|null</span>
+    <span class="phpdocumentor-signature__name">$globalIPv6PrefixLen</span>
+    </code>
+
+        <section class="phpdocumentor-description"><p><br /></p>
+<blockquote>
+<p><strong>Deprecated</strong>: This field is only propagated when attached to the</p>
+</blockquote>
+</section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_hairpinMode">
+        $hairpinMode
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_hairpinMode" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">32</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Indicates if hairpin NAT should be enabled on the virtual interface.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">bool|null</span>
+    <span class="phpdocumentor-signature__name">$hairpinMode</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_iPAddress">
+        $iPAddress
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_iPAddress" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">114</span>
+</aside>
+
+        <p class="phpdocumentor-summary">IPv4 address for the default &quot;bridge&quot; network.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">string|null</span>
+    <span class="phpdocumentor-signature__name">$iPAddress</span>
+    </code>
+
+        <section class="phpdocumentor-description"><p><br /></p>
+<blockquote>
+<p><strong>Deprecated</strong>: This field is only propagated when attached to the</p>
+</blockquote>
+</section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_iPPrefixLen">
+        $iPPrefixLen
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_iPPrefixLen" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">124</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Mask length of the IPv4 address.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">int|null</span>
+    <span class="phpdocumentor-signature__name">$iPPrefixLen</span>
+    </code>
+
+        <section class="phpdocumentor-description"><p><br /></p>
+<blockquote>
+<p><strong>Deprecated</strong>: This field is only propagated when attached to the</p>
+</blockquote>
+</section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_iPv6Gateway">
+        $iPv6Gateway
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_iPv6Gateway" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">134</span>
+</aside>
+
+        <p class="phpdocumentor-summary">IPv6 gateway address for this network.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">string|null</span>
+    <span class="phpdocumentor-signature__name">$iPv6Gateway</span>
+    </code>
+
+        <section class="phpdocumentor-description"><p><br /></p>
+<blockquote>
+<p><strong>Deprecated</strong>: This field is only propagated when attached to the</p>
+</blockquote>
+</section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_linkLocalIPv6Address">
+        $linkLocalIPv6Address
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_linkLocalIPv6Address" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">38</span>
+</aside>
+
+        <p class="phpdocumentor-summary">IPv6 unicast address using the link-local prefix.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">string|null</span>
+    <span class="phpdocumentor-signature__name">$linkLocalIPv6Address</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_linkLocalIPv6PrefixLen">
+        $linkLocalIPv6PrefixLen
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_linkLocalIPv6PrefixLen" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">44</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Prefix length of the IPv6 unicast address.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">int|null</span>
+    <span class="phpdocumentor-signature__name">$linkLocalIPv6PrefixLen</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_macAddress">
+        $macAddress
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_macAddress" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">144</span>
+</aside>
+
+        <p class="phpdocumentor-summary">MAC address for the container on the default &quot;bridge&quot; network.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">string|null</span>
+    <span class="phpdocumentor-signature__name">$macAddress</span>
+    </code>
+
+        <section class="phpdocumentor-description"><p><br /></p>
+<blockquote>
+<p><strong>Deprecated</strong>: This field is only propagated when attached to the</p>
+</blockquote>
+</section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_networks">
+        $networks
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_networks" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">150</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Information about all networks that the container is connected to.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-EndpointSettings.html"><abbr title="\Docker\OpenAPI\Model\EndpointSettings">EndpointSettings</abbr></a>&gt;|null</span>
+    <span class="phpdocumentor-signature__name">$networks</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_ports">
+        $ports
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_ports" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">50</span>
+</aside>
+
+        <p class="phpdocumentor-summary">PortMap describes the mapping of container ports to host ports, using the.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">array&lt;string|int, array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-PortBinding.html"><abbr title="\Docker\OpenAPI\Model\PortBinding">PortBinding</abbr></a>&gt;&gt;|null</span>
+    <span class="phpdocumentor-signature__name">$ports</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_sandboxID">
+        $sandboxID
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_sandboxID" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">26</span>
+</aside>
+
+        <p class="phpdocumentor-summary">SandboxID uniquely represents a container&#039;s network stack.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">string|null</span>
+    <span class="phpdocumentor-signature__name">$sandboxID</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_sandboxKey">
+        $sandboxKey
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_sandboxKey" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">56</span>
+</aside>
+
+        <p class="phpdocumentor-summary">SandboxKey identifies the sandbox.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">string|null</span>
+    <span class="phpdocumentor-signature__name">$sandboxKey</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_secondaryIPAddresses">
+        $secondaryIPAddresses
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_secondaryIPAddresses" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">60</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-Address.html"><abbr title="\Docker\OpenAPI\Model\Address">Address</abbr></a>&gt;|null</span>
+    <span class="phpdocumentor-signature__name">$secondaryIPAddresses</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_secondaryIPv6Addresses">
+        $secondaryIPv6Addresses
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#property_secondaryIPv6Addresses" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">64</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-Address.html"><abbr title="\Docker\OpenAPI\Model\Address">Address</abbr></a>&gt;|null</span>
+    <span class="phpdocumentor-signature__name">$secondaryIPv6Addresses</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+            </section>
+
+            <section class="phpdocumentor-methods">
+        <h3 class="phpdocumentor-elements__header" id="methods">
+            Methods
+            <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getBridge">
+        getBridge()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getBridge" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">155</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Name of the network&#039;a bridge (for example, `docker0`).</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getBridge</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getEndpointID">
+        getEndpointID()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getEndpointID" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">329</span>
+</aside>
+
+        <p class="phpdocumentor-summary">EndpointID uniquely represents a service endpoint in a Sandbox.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getEndpointID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+
+        <section class="phpdocumentor-description"><p><br /></p>
+<blockquote>
+<p><strong>Deprecated</strong>: This field is only propagated when attached to the
+default &quot;bridge&quot; network. Use the information from the &quot;bridge&quot;
+network inside the <code class="prettyprint">Networks</code> map instead, which contains the same
+information. This field was deprecated in Docker 1.9 and is scheduled
+to be removed in Docker 17.12.0</p>
+</blockquote>
+</section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getGateway">
+        getGateway()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getGateway" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">363</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Gateway address for the default &quot;bridge&quot; network.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getGateway</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+
+        <section class="phpdocumentor-description"><p><br /></p>
+<blockquote>
+<p><strong>Deprecated</strong>: This field is only propagated when attached to the
+default &quot;bridge&quot; network. Use the information from the &quot;bridge&quot;
+network inside the <code class="prettyprint">Networks</code> map instead, which contains the same
+information. This field was deprecated in Docker 1.9 and is scheduled
+to be removed in Docker 17.12.0</p>
+</blockquote>
+</section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getGlobalIPv6Address">
+        getGlobalIPv6Address()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getGlobalIPv6Address" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">397</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Global IPv6 address for the default &quot;bridge&quot; network.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getGlobalIPv6Address</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+
+        <section class="phpdocumentor-description"><p><br /></p>
+<blockquote>
+<p><strong>Deprecated</strong>: This field is only propagated when attached to the
+default &quot;bridge&quot; network. Use the information from the &quot;bridge&quot;
+network inside the <code class="prettyprint">Networks</code> map instead, which contains the same
+information. This field was deprecated in Docker 1.9 and is scheduled
+to be removed in Docker 17.12.0</p>
+</blockquote>
+</section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getGlobalIPv6PrefixLen">
+        getGlobalIPv6PrefixLen()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getGlobalIPv6PrefixLen" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">431</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Mask length of the global IPv6 address.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getGlobalIPv6PrefixLen</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int|null</span></code>
+
+        <section class="phpdocumentor-description"><p><br /></p>
+<blockquote>
+<p><strong>Deprecated</strong>: This field is only propagated when attached to the
+default &quot;bridge&quot; network. Use the information from the &quot;bridge&quot;
+network inside the <code class="prettyprint">Networks</code> map instead, which contains the same
+information. This field was deprecated in Docker 1.9 and is scheduled
+to be removed in Docker 17.12.0</p>
+</blockquote>
+</section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">int|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getHairpinMode">
+        getHairpinMode()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getHairpinMode" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">191</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Indicates if hairpin NAT should be enabled on the virtual interface.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getHairpinMode</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool|null</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">bool|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getIPAddress">
+        getIPAddress()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getIPAddress" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">465</span>
+</aside>
+
+        <p class="phpdocumentor-summary">IPv4 address for the default &quot;bridge&quot; network.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getIPAddress</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+
+        <section class="phpdocumentor-description"><p><br /></p>
+<blockquote>
+<p><strong>Deprecated</strong>: This field is only propagated when attached to the
+default &quot;bridge&quot; network. Use the information from the &quot;bridge&quot;
+network inside the <code class="prettyprint">Networks</code> map instead, which contains the same
+information. This field was deprecated in Docker 1.9 and is scheduled
+to be removed in Docker 17.12.0</p>
+</blockquote>
+</section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getIPPrefixLen">
+        getIPPrefixLen()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getIPPrefixLen" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">499</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Mask length of the IPv4 address.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getIPPrefixLen</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int|null</span></code>
+
+        <section class="phpdocumentor-description"><p><br /></p>
+<blockquote>
+<p><strong>Deprecated</strong>: This field is only propagated when attached to the
+default &quot;bridge&quot; network. Use the information from the &quot;bridge&quot;
+network inside the <code class="prettyprint">Networks</code> map instead, which contains the same
+information. This field was deprecated in Docker 1.9 and is scheduled
+to be removed in Docker 17.12.0</p>
+</blockquote>
+</section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">int|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getIPv6Gateway">
+        getIPv6Gateway()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getIPv6Gateway" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">533</span>
+</aside>
+
+        <p class="phpdocumentor-summary">IPv6 gateway address for this network.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getIPv6Gateway</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+
+        <section class="phpdocumentor-description"><p><br /></p>
+<blockquote>
+<p><strong>Deprecated</strong>: This field is only propagated when attached to the
+default &quot;bridge&quot; network. Use the information from the &quot;bridge&quot;
+network inside the <code class="prettyprint">Networks</code> map instead, which contains the same
+information. This field was deprecated in Docker 1.9 and is scheduled
+to be removed in Docker 17.12.0</p>
+</blockquote>
+</section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getLinkLocalIPv6Address">
+        getLinkLocalIPv6Address()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getLinkLocalIPv6Address" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">209</span>
+</aside>
+
+        <p class="phpdocumentor-summary">IPv6 unicast address using the link-local prefix.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getLinkLocalIPv6Address</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getLinkLocalIPv6PrefixLen">
+        getLinkLocalIPv6PrefixLen()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getLinkLocalIPv6PrefixLen" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">227</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Prefix length of the IPv6 unicast address.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getLinkLocalIPv6PrefixLen</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int|null</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">int|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getMacAddress">
+        getMacAddress()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getMacAddress" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">567</span>
+</aside>
+
+        <p class="phpdocumentor-summary">MAC address for the container on the default &quot;bridge&quot; network.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getMacAddress</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+
+        <section class="phpdocumentor-description"><p><br /></p>
+<blockquote>
+<p><strong>Deprecated</strong>: This field is only propagated when attached to the
+default &quot;bridge&quot; network. Use the information from the &quot;bridge&quot;
+network inside the <code class="prettyprint">Networks</code> map instead, which contains the same
+information. This field was deprecated in Docker 1.9 and is scheduled
+to be removed in Docker 17.12.0</p>
+</blockquote>
+</section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getNetworks">
+        getNetworks()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getNetworks" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">595</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Information about all networks that the container is connected to.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getNetworks</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-EndpointSettings.html"><abbr title="\Docker\OpenAPI\Model\EndpointSettings">EndpointSettings</abbr></a>&gt;|null</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-EndpointSettings.html"><abbr title="\Docker\OpenAPI\Model\EndpointSettings">EndpointSettings</abbr></a>&gt;|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getPorts">
+        getPorts()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getPorts" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">247</span>
+</aside>
+
+        <p class="phpdocumentor-summary">PortMap describes the mapping of container ports to host ports, using the.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getPorts</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-PortBinding.html"><abbr title="\Docker\OpenAPI\Model\PortBinding">PortBinding</abbr></a>&gt;&gt;|null</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-PortBinding.html"><abbr title="\Docker\OpenAPI\Model\PortBinding">PortBinding</abbr></a>&gt;&gt;|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getSandboxID">
+        getSandboxID()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getSandboxID" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">173</span>
+</aside>
+
+        <p class="phpdocumentor-summary">SandboxID uniquely represents a container&#039;s network stack.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getSandboxID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getSandboxKey">
+        getSandboxKey()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getSandboxKey" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">267</span>
+</aside>
+
+        <p class="phpdocumentor-summary">SandboxKey identifies the sandbox.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getSandboxKey</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getSecondaryIPAddresses">
+        getSecondaryIPAddresses()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getSecondaryIPAddresses" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">285</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getSecondaryIPAddresses</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-Address.html"><abbr title="\Docker\OpenAPI\Model\Address">Address</abbr></a>&gt;|null</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-Address.html"><abbr title="\Docker\OpenAPI\Model\Address">Address</abbr></a>&gt;|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getSecondaryIPv6Addresses">
+        getSecondaryIPv6Addresses()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_getSecondaryIPv6Addresses" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">303</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getSecondaryIPv6Addresses</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-Address.html"><abbr title="\Docker\OpenAPI\Model\Address">Address</abbr></a>&gt;|null</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-Address.html"><abbr title="\Docker\OpenAPI\Model\Address">Address</abbr></a>&gt;|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setBridge">
+        setBridge()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setBridge" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">163</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Name of the network&#039;a bridge (for example, `docker0`).</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setBridge</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$bridge</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$bridge</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setEndpointID">
+        setEndpointID()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setEndpointID" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">345</span>
+</aside>
+
+        <p class="phpdocumentor-summary">EndpointID uniquely represents a service endpoint in a Sandbox.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setEndpointID</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$endpointID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"><p><br /></p>
+<blockquote>
+<p><strong>Deprecated</strong>: This field is only propagated when attached to the
+default &quot;bridge&quot; network. Use the information from the &quot;bridge&quot;
+network inside the <code class="prettyprint">Networks</code> map instead, which contains the same
+information. This field was deprecated in Docker 1.9 and is scheduled
+to be removed in Docker 17.12.0</p>
+</blockquote>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$endpointID</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setGateway">
+        setGateway()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setGateway" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">379</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Gateway address for the default &quot;bridge&quot; network.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setGateway</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gateway</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"><p><br /></p>
+<blockquote>
+<p><strong>Deprecated</strong>: This field is only propagated when attached to the
+default &quot;bridge&quot; network. Use the information from the &quot;bridge&quot;
+network inside the <code class="prettyprint">Networks</code> map instead, which contains the same
+information. This field was deprecated in Docker 1.9 and is scheduled
+to be removed in Docker 17.12.0</p>
+</blockquote>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$gateway</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setGlobalIPv6Address">
+        setGlobalIPv6Address()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setGlobalIPv6Address" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">413</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Global IPv6 address for the default &quot;bridge&quot; network.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setGlobalIPv6Address</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$globalIPv6Address</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"><p><br /></p>
+<blockquote>
+<p><strong>Deprecated</strong>: This field is only propagated when attached to the
+default &quot;bridge&quot; network. Use the information from the &quot;bridge&quot;
+network inside the <code class="prettyprint">Networks</code> map instead, which contains the same
+information. This field was deprecated in Docker 1.9 and is scheduled
+to be removed in Docker 17.12.0</p>
+</blockquote>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$globalIPv6Address</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setGlobalIPv6PrefixLen">
+        setGlobalIPv6PrefixLen()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setGlobalIPv6PrefixLen" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">447</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Mask length of the global IPv6 address.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setGlobalIPv6PrefixLen</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$globalIPv6PrefixLen</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"><p><br /></p>
+<blockquote>
+<p><strong>Deprecated</strong>: This field is only propagated when attached to the
+default &quot;bridge&quot; network. Use the information from the &quot;bridge&quot;
+network inside the <code class="prettyprint">Networks</code> map instead, which contains the same
+information. This field was deprecated in Docker 1.9 and is scheduled
+to be removed in Docker 17.12.0</p>
+</blockquote>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$globalIPv6PrefixLen</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setHairpinMode">
+        setHairpinMode()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setHairpinMode" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">199</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Indicates if hairpin NAT should be enabled on the virtual interface.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setHairpinMode</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">bool|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$hairpinMode</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$hairpinMode</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setIPAddress">
+        setIPAddress()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setIPAddress" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">481</span>
+</aside>
+
+        <p class="phpdocumentor-summary">IPv4 address for the default &quot;bridge&quot; network.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setIPAddress</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$iPAddress</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"><p><br /></p>
+<blockquote>
+<p><strong>Deprecated</strong>: This field is only propagated when attached to the
+default &quot;bridge&quot; network. Use the information from the &quot;bridge&quot;
+network inside the <code class="prettyprint">Networks</code> map instead, which contains the same
+information. This field was deprecated in Docker 1.9 and is scheduled
+to be removed in Docker 17.12.0</p>
+</blockquote>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$iPAddress</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setIPPrefixLen">
+        setIPPrefixLen()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setIPPrefixLen" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">515</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Mask length of the IPv4 address.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setIPPrefixLen</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$iPPrefixLen</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"><p><br /></p>
+<blockquote>
+<p><strong>Deprecated</strong>: This field is only propagated when attached to the
+default &quot;bridge&quot; network. Use the information from the &quot;bridge&quot;
+network inside the <code class="prettyprint">Networks</code> map instead, which contains the same
+information. This field was deprecated in Docker 1.9 and is scheduled
+to be removed in Docker 17.12.0</p>
+</blockquote>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$iPPrefixLen</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setIPv6Gateway">
+        setIPv6Gateway()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setIPv6Gateway" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">549</span>
+</aside>
+
+        <p class="phpdocumentor-summary">IPv6 gateway address for this network.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setIPv6Gateway</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$iPv6Gateway</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"><p><br /></p>
+<blockquote>
+<p><strong>Deprecated</strong>: This field is only propagated when attached to the
+default &quot;bridge&quot; network. Use the information from the &quot;bridge&quot;
+network inside the <code class="prettyprint">Networks</code> map instead, which contains the same
+information. This field was deprecated in Docker 1.9 and is scheduled
+to be removed in Docker 17.12.0</p>
+</blockquote>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$iPv6Gateway</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setLinkLocalIPv6Address">
+        setLinkLocalIPv6Address()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setLinkLocalIPv6Address" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">217</span>
+</aside>
+
+        <p class="phpdocumentor-summary">IPv6 unicast address using the link-local prefix.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setLinkLocalIPv6Address</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$linkLocalIPv6Address</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$linkLocalIPv6Address</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setLinkLocalIPv6PrefixLen">
+        setLinkLocalIPv6PrefixLen()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setLinkLocalIPv6PrefixLen" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">235</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Prefix length of the IPv6 unicast address.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setLinkLocalIPv6PrefixLen</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$linkLocalIPv6PrefixLen</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$linkLocalIPv6PrefixLen</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setMacAddress">
+        setMacAddress()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setMacAddress" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">583</span>
+</aside>
+
+        <p class="phpdocumentor-summary">MAC address for the container on the default &quot;bridge&quot; network.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setMacAddress</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$macAddress</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"><p><br /></p>
+<blockquote>
+<p><strong>Deprecated</strong>: This field is only propagated when attached to the
+default &quot;bridge&quot; network. Use the information from the &quot;bridge&quot;
+network inside the <code class="prettyprint">Networks</code> map instead, which contains the same
+information. This field was deprecated in Docker 1.9 and is scheduled
+to be removed in Docker 17.12.0</p>
+</blockquote>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$macAddress</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setNetworks">
+        setNetworks()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setNetworks" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">605</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Information about all networks that the container is connected to.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setNetworks</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-EndpointSettings.html"><abbr title="\Docker\OpenAPI\Model\EndpointSettings">EndpointSettings</abbr></a>&gt;|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$networks</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$networks</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-EndpointSettings.html"><abbr title="\Docker\OpenAPI\Model\EndpointSettings">EndpointSettings</abbr></a>&gt;|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setPorts">
+        setPorts()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setPorts" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">257</span>
+</aside>
+
+        <p class="phpdocumentor-summary">PortMap describes the mapping of container ports to host ports, using the.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setPorts</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-PortBinding.html"><abbr title="\Docker\OpenAPI\Model\PortBinding">PortBinding</abbr></a>&gt;&gt;|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$ports</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$ports</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-PortBinding.html"><abbr title="\Docker\OpenAPI\Model\PortBinding">PortBinding</abbr></a>&gt;&gt;|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setSandboxID">
+        setSandboxID()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setSandboxID" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">181</span>
+</aside>
+
+        <p class="phpdocumentor-summary">SandboxID uniquely represents a container&#039;s network stack.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setSandboxID</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sandboxID</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$sandboxID</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setSandboxKey">
+        setSandboxKey()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setSandboxKey" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">275</span>
+</aside>
+
+        <p class="phpdocumentor-summary">SandboxKey identifies the sandbox.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setSandboxKey</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sandboxKey</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$sandboxKey</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setSecondaryIPAddresses">
+        setSecondaryIPAddresses()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setSecondaryIPAddresses" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">293</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setSecondaryIPAddresses</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-Address.html"><abbr title="\Docker\OpenAPI\Model\Address">Address</abbr></a>&gt;|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$secondaryIPAddresses</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$secondaryIPAddresses</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-Address.html"><abbr title="\Docker\OpenAPI\Model\Address">Address</abbr></a>&gt;|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setSecondaryIPv6Addresses">
+        setSecondaryIPv6Addresses()
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#method_setSecondaryIPv6Addresses" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/NetworkSettings.php"><a href="files/src-model-networksettings.html"><abbr title="src/Model/NetworkSettings.php">NetworkSettings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">311</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setSecondaryIPv6Addresses</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-Address.html"><abbr title="\Docker\OpenAPI\Model\Address">Address</abbr></a>&gt;|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$secondaryIPv6Addresses</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$secondaryIPv6Addresses</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-Address.html"><abbr title="\Docker\OpenAPI\Model\Address">Address</abbr></a>&gt;|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+            </section>
+
+    </article>
+                <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
+        </section>
+    </section>
+</section>
+            </div>
+        </div>
+        <a href="classes/Docker-OpenAPI-Model-NetworkSettings.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+</body>
+</html>

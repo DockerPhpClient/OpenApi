@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+            <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+                <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+        <script src="js/search.js"></script>
+        <script defer src="js/searchIndex.js"></script>
+    </head>
+<body id="top">
+    <header class="phpdocumentor-header phpdocumentor-section">
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">Documentation</a></h1>
+    <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
+    <label class="phpdocumentor-header__menu-icon" for="menu-button">
+        <i class="fas fa-bars"></i>
+    </label>
+    <section data-search-form class="phpdocumentor-search">
+    <label>
+        <span class="visually-hidden">Search for</span>
+        <svg class="phpdocumentor-search__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12.4892" y1="12.2727" x2="19.1559" y2="18.9393" stroke="currentColor" stroke-width="3"/>
+        </svg>
+        <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+    </label>
+</section>
+
+    <nav class="phpdocumentor-topnav">
+    <ul class="phpdocumentor-topnav__menu">
+        </ul>
+</nav>
+</header>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+<label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+    Menu
+</label>
+<aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+        
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                                <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/docker.html"><abbr title="\Docker">Docker</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="namespaces/docker-openapi.html"><abbr title="\Docker\OpenAPI">OpenAPI</abbr></a></li>
+                                    </ul>
+                        </section>
+
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/docker.html">Docker</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/docker-openapi.html">OpenAPI</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/docker-openapi-model.html">Model</a></li>
+    </ul>
+
+    <article class="phpdocumentor-element -class">
+        <h2 class="phpdocumentor-content__title">
+    SwarmSpecCAConfig
+
+    
+    
+    
+    </h2>
+
+        <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/SwarmSpecCAConfig.php"><a href="files/src-model-swarmspeccaconfig.html"><abbr title="src/Model/SwarmSpecCAConfig.php">SwarmSpecCAConfig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">13</span>
+</aside>
+
+        
+
+
+
+
+
+
+
+
+<h3 id="toc">
+    Table of Contents
+    <a href="#toc" class="headerlink"><i class="fas fa-link"></i></a>
+</h3>
+
+<dl class="phpdocumentor-table-of-contents">
+                <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#property_externalCAs">$externalCAs</a>
+    <span>
+                &nbsp;: array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfigExternalCAsItem.html"><abbr title="\Docker\OpenAPI\Model\SwarmSpecCAConfigExternalCAsItem">SwarmSpecCAConfigExternalCAsItem</abbr></a>&gt;|null            </span>
+</dt>
+<dd>Configuration for forwarding signing requests to an external.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#property_forceRotate">$forceRotate</a>
+    <span>
+                &nbsp;: int|null            </span>
+</dt>
+<dd>An integer whose purpose is to force swarm to generate a new.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#property_nodeCertExpiry">$nodeCertExpiry</a>
+    <span>
+                &nbsp;: int|null            </span>
+</dt>
+<dd>The duration node certificates are issued for.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#property_signingCACert">$signingCACert</a>
+    <span>
+                &nbsp;: string|null            </span>
+</dt>
+<dd>The desired signing CA certificate for all swarm node TLS leaf.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#property_signingCAKey">$signingCAKey</a>
+    <span>
+                &nbsp;: string|null            </span>
+</dt>
+<dd>The desired signing CA key for all swarm node TLS leaf certificates,.</dd>
+
+                <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#method_getExternalCAs">getExternalCAs()</a>
+    <span>
+                        &nbsp;: array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfigExternalCAsItem.html"><abbr title="\Docker\OpenAPI\Model\SwarmSpecCAConfigExternalCAsItem">SwarmSpecCAConfigExternalCAsItem</abbr></a>&gt;|null    </span>
+</dt>
+<dd>Configuration for forwarding signing requests to an external.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#method_getForceRotate">getForceRotate()</a>
+    <span>
+                        &nbsp;: int|null    </span>
+</dt>
+<dd>An integer whose purpose is to force swarm to generate a new.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#method_getNodeCertExpiry">getNodeCertExpiry()</a>
+    <span>
+                        &nbsp;: int|null    </span>
+</dt>
+<dd>The duration node certificates are issued for.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#method_getSigningCACert">getSigningCACert()</a>
+    <span>
+                        &nbsp;: string|null    </span>
+</dt>
+<dd>The desired signing CA certificate for all swarm node TLS leaf.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#method_getSigningCAKey">getSigningCAKey()</a>
+    <span>
+                        &nbsp;: string|null    </span>
+</dt>
+<dd>The desired signing CA key for all swarm node TLS leaf certificates,.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#method_setExternalCAs">setExternalCAs()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Configuration for forwarding signing requests to an external.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#method_setForceRotate">setForceRotate()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>An integer whose purpose is to force swarm to generate a new.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#method_setNodeCertExpiry">setNodeCertExpiry()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>The duration node certificates are issued for.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#method_setSigningCACert">setSigningCACert()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>The desired signing CA certificate for all swarm node TLS leaf.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#method_setSigningCAKey">setSigningCAKey()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>The desired signing CA key for all swarm node TLS leaf certificates,.</dd>
+
+        </dl>
+
+
+
+        
+
+        
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_externalCAs">
+        $externalCAs
+        <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#property_externalCAs" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/SwarmSpecCAConfig.php"><a href="files/src-model-swarmspeccaconfig.html"><abbr title="src/Model/SwarmSpecCAConfig.php">SwarmSpecCAConfig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">26</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Configuration for forwarding signing requests to an external.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfigExternalCAsItem.html"><abbr title="\Docker\OpenAPI\Model\SwarmSpecCAConfigExternalCAsItem">SwarmSpecCAConfigExternalCAsItem</abbr></a>&gt;|null</span>
+    <span class="phpdocumentor-signature__name">$externalCAs</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_forceRotate">
+        $forceRotate
+        <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#property_forceRotate" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/SwarmSpecCAConfig.php"><a href="files/src-model-swarmspeccaconfig.html"><abbr title="src/Model/SwarmSpecCAConfig.php">SwarmSpecCAConfig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">44</span>
+</aside>
+
+        <p class="phpdocumentor-summary">An integer whose purpose is to force swarm to generate a new.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">int|null</span>
+    <span class="phpdocumentor-signature__name">$forceRotate</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_nodeCertExpiry">
+        $nodeCertExpiry
+        <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#property_nodeCertExpiry" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/SwarmSpecCAConfig.php"><a href="files/src-model-swarmspeccaconfig.html"><abbr title="src/Model/SwarmSpecCAConfig.php">SwarmSpecCAConfig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">20</span>
+</aside>
+
+        <p class="phpdocumentor-summary">The duration node certificates are issued for.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">int|null</span>
+    <span class="phpdocumentor-signature__name">$nodeCertExpiry</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_signingCACert">
+        $signingCACert
+        <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#property_signingCACert" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/SwarmSpecCAConfig.php"><a href="files/src-model-swarmspeccaconfig.html"><abbr title="src/Model/SwarmSpecCAConfig.php">SwarmSpecCAConfig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">32</span>
+</aside>
+
+        <p class="phpdocumentor-summary">The desired signing CA certificate for all swarm node TLS leaf.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">string|null</span>
+    <span class="phpdocumentor-signature__name">$signingCACert</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_signingCAKey">
+        $signingCAKey
+        <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#property_signingCAKey" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/SwarmSpecCAConfig.php"><a href="files/src-model-swarmspeccaconfig.html"><abbr title="src/Model/SwarmSpecCAConfig.php">SwarmSpecCAConfig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">38</span>
+</aside>
+
+        <p class="phpdocumentor-summary">The desired signing CA key for all swarm node TLS leaf certificates,.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">string|null</span>
+    <span class="phpdocumentor-signature__name">$signingCAKey</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+            </section>
+
+            <section class="phpdocumentor-methods">
+        <h3 class="phpdocumentor-elements__header" id="methods">
+            Methods
+            <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getExternalCAs">
+        getExternalCAs()
+        <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#method_getExternalCAs" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/SwarmSpecCAConfig.php"><a href="files/src-model-swarmspeccaconfig.html"><abbr title="src/Model/SwarmSpecCAConfig.php">SwarmSpecCAConfig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">69</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Configuration for forwarding signing requests to an external.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getExternalCAs</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfigExternalCAsItem.html"><abbr title="\Docker\OpenAPI\Model\SwarmSpecCAConfigExternalCAsItem">SwarmSpecCAConfigExternalCAsItem</abbr></a>&gt;|null</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfigExternalCAsItem.html"><abbr title="\Docker\OpenAPI\Model\SwarmSpecCAConfigExternalCAsItem">SwarmSpecCAConfigExternalCAsItem</abbr></a>&gt;|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getForceRotate">
+        getForceRotate()
+        <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#method_getForceRotate" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/SwarmSpecCAConfig.php"><a href="files/src-model-swarmspeccaconfig.html"><abbr title="src/Model/SwarmSpecCAConfig.php">SwarmSpecCAConfig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">130</span>
+</aside>
+
+        <p class="phpdocumentor-summary">An integer whose purpose is to force swarm to generate a new.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getForceRotate</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int|null</span></code>
+
+        <section class="phpdocumentor-description"><p><code class="prettyprint">SigningCACert</code> and <code class="prettyprint">SigningCAKey</code></p>
+</section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">int|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getNodeCertExpiry">
+        getNodeCertExpiry()
+        <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#method_getNodeCertExpiry" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/SwarmSpecCAConfig.php"><a href="files/src-model-swarmspeccaconfig.html"><abbr title="src/Model/SwarmSpecCAConfig.php">SwarmSpecCAConfig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">49</span>
+</aside>
+
+        <p class="phpdocumentor-summary">The duration node certificates are issued for.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getNodeCertExpiry</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int|null</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">int|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getSigningCACert">
+        getSigningCACert()
+        <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#method_getSigningCACert" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/SwarmSpecCAConfig.php"><a href="files/src-model-swarmspeccaconfig.html"><abbr title="src/Model/SwarmSpecCAConfig.php">SwarmSpecCAConfig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">90</span>
+</aside>
+
+        <p class="phpdocumentor-summary">The desired signing CA certificate for all swarm node TLS leaf.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getSigningCACert</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+
+        <section class="phpdocumentor-description"><p>certificates, in PEM format.</p>
+</section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getSigningCAKey">
+        getSigningCAKey()
+        <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#method_getSigningCAKey" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/SwarmSpecCAConfig.php"><a href="files/src-model-swarmspeccaconfig.html"><abbr title="src/Model/SwarmSpecCAConfig.php">SwarmSpecCAConfig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">110</span>
+</aside>
+
+        <p class="phpdocumentor-summary">The desired signing CA key for all swarm node TLS leaf certificates,.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getSigningCAKey</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+
+        <section class="phpdocumentor-description"><p>in PEM format.</p>
+</section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setExternalCAs">
+        setExternalCAs()
+        <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#method_setExternalCAs" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/SwarmSpecCAConfig.php"><a href="files/src-model-swarmspeccaconfig.html"><abbr title="src/Model/SwarmSpecCAConfig.php">SwarmSpecCAConfig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">79</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Configuration for forwarding signing requests to an external.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setExternalCAs</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfigExternalCAsItem.html"><abbr title="\Docker\OpenAPI\Model\SwarmSpecCAConfigExternalCAsItem">SwarmSpecCAConfigExternalCAsItem</abbr></a>&gt;|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$externalCAs</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$externalCAs</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfigExternalCAsItem.html"><abbr title="\Docker\OpenAPI\Model\SwarmSpecCAConfigExternalCAsItem">SwarmSpecCAConfigExternalCAsItem</abbr></a>&gt;|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setForceRotate">
+        setForceRotate()
+        <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#method_setForceRotate" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/SwarmSpecCAConfig.php"><a href="files/src-model-swarmspeccaconfig.html"><abbr title="src/Model/SwarmSpecCAConfig.php">SwarmSpecCAConfig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">139</span>
+</aside>
+
+        <p class="phpdocumentor-summary">An integer whose purpose is to force swarm to generate a new.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setForceRotate</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forceRotate</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"><p><code class="prettyprint">SigningCACert</code> and <code class="prettyprint">SigningCAKey</code></p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$forceRotate</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setNodeCertExpiry">
+        setNodeCertExpiry()
+        <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#method_setNodeCertExpiry" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/SwarmSpecCAConfig.php"><a href="files/src-model-swarmspeccaconfig.html"><abbr title="src/Model/SwarmSpecCAConfig.php">SwarmSpecCAConfig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">57</span>
+</aside>
+
+        <p class="phpdocumentor-summary">The duration node certificates are issued for.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setNodeCertExpiry</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$nodeCertExpiry</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$nodeCertExpiry</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setSigningCACert">
+        setSigningCACert()
+        <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#method_setSigningCACert" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/SwarmSpecCAConfig.php"><a href="files/src-model-swarmspeccaconfig.html"><abbr title="src/Model/SwarmSpecCAConfig.php">SwarmSpecCAConfig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">99</span>
+</aside>
+
+        <p class="phpdocumentor-summary">The desired signing CA certificate for all swarm node TLS leaf.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setSigningCACert</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$signingCACert</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"><p>certificates, in PEM format.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$signingCACert</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setSigningCAKey">
+        setSigningCAKey()
+        <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#method_setSigningCAKey" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Model/SwarmSpecCAConfig.php"><a href="files/src-model-swarmspeccaconfig.html"><abbr title="src/Model/SwarmSpecCAConfig.php">SwarmSpecCAConfig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">119</span>
+</aside>
+
+        <p class="phpdocumentor-summary">The desired signing CA key for all swarm node TLS leaf certificates,.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setSigningCAKey</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$signingCAKey</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"><p>in PEM format.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$signingCAKey</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+            </section>
+
+    </article>
+                <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
+        </section>
+    </section>
+</section>
+            </div>
+        </div>
+        <a href="classes/Docker-OpenAPI-Model-SwarmSpecCAConfig.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+</body>
+</html>
