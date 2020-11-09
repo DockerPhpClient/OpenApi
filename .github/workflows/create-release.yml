@@ -3,8 +3,12 @@ name: Create Release
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the main branch
 on:
-  release:
-    types: [prereleased]
+  workflow_dispatch:
+    inputs:
+      api_version:
+        description: 'Docker Api Version'
+        required: true
+        default: '1.40'
 
 jobs:
   release:
@@ -13,13 +17,14 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Create Release
-        uses: actions/github-script@v3
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         with:
-          github-token: ${{secrets.GITHUB_TOKEN}}
-          script: |
-            github.repos.updateRelease({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              release_id: context.repo.ref,
-              prerelease: false,
-            });
+          tag_name: v6.${{ github.event.inputs.home }}.0
+          release_name: Release v6.${{ github.event.inputs.home }}.0
+          draft: false
+          prerelease: false
+
+          
