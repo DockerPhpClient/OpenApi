@@ -8581,26 +8581,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Docker-OpenAPI-Exception-SecretCreateConflictException.html#property_errorResponse"
         },                {
-            "fqsen": "\\Docker\\OpenAPI\\Exception\\SecretCreateInternalServerErrorException",
-            "name": "SecretCreateInternalServerErrorException",
-            "summary": "",
-            "url": "classes/Docker-OpenAPI-Exception-SecretCreateInternalServerErrorException.html"
-        },                {
-            "fqsen": "\\Docker\\OpenAPI\\Exception\\SecretCreateInternalServerErrorException\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/Docker-OpenAPI-Exception-SecretCreateInternalServerErrorException.html#method___construct"
-        },                {
-            "fqsen": "\\Docker\\OpenAPI\\Exception\\SecretCreateInternalServerErrorException\u003A\u003AgetErrorResponse\u0028\u0029",
-            "name": "getErrorResponse",
-            "summary": "",
-            "url": "classes/Docker-OpenAPI-Exception-SecretCreateInternalServerErrorException.html#method_getErrorResponse"
-        },                {
-            "fqsen": "\\Docker\\OpenAPI\\Exception\\SecretCreateInternalServerErrorException\u003A\u003A\u0024errorResponse",
-            "name": "errorResponse",
-            "summary": "",
-            "url": "classes/Docker-OpenAPI-Exception-SecretCreateInternalServerErrorException.html#property_errorResponse"
-        },                {
             "fqsen": "\\Docker\\OpenAPI\\Exception\\SecretCreateServiceUnavailableException",
             "name": "SecretCreateServiceUnavailableException",
             "summary": "",
@@ -31616,21 +31596,6 @@ Search.appendIndex(
             "summary": "Parse\u0020and\u0020transform\u0020a\u0020PSR7\u0020Response\u0020into\u0020a\u0020different\u0020object.",
             "url": "classes/Docker-OpenAPI-Runtime-Client-Endpoint.html#method_parseResponse"
         },                {
-            "fqsen": "\\Docker\\OpenAPI\\Runtime\\Client\\EndpointTrait",
-            "name": "EndpointTrait",
-            "summary": "",
-            "url": "classes/Docker-OpenAPI-Runtime-Client-EndpointTrait.html"
-        },                {
-            "fqsen": "\\Docker\\OpenAPI\\Runtime\\Client\\EndpointTrait\u003A\u003AtransformResponseBody\u0028\u0029",
-            "name": "transformResponseBody",
-            "summary": "",
-            "url": "classes/Docker-OpenAPI-Runtime-Client-EndpointTrait.html#method_transformResponseBody"
-        },                {
-            "fqsen": "\\Docker\\OpenAPI\\Runtime\\Client\\EndpointTrait\u003A\u003AparseResponse\u0028\u0029",
-            "name": "parseResponse",
-            "summary": "",
-            "url": "classes/Docker-OpenAPI-Runtime-Client-EndpointTrait.html#method_parseResponse"
-        },                {
             "fqsen": "\\Docker\\OpenAPI\\Runtime\\Normalizer\\CheckArray",
             "name": "CheckArray",
             "summary": "",
@@ -31655,6 +31620,41 @@ Search.appendIndex(
             "name": "supportsNormalization",
             "summary": "\u007B\u0040inheritdoc\u007D",
             "url": "classes/Docker-OpenAPI-Runtime-Normalizer-ReferenceNormalizer.html#method_supportsNormalization"
+        },                {
+            "fqsen": "\\Docker\\OpenAPI\\Exception\\SecretCreateInternalServerErrorException",
+            "name": "SecretCreateInternalServerErrorException",
+            "summary": "",
+            "url": "classes/Docker-OpenAPI-Exception-SecretCreateInternalServerErrorException.html"
+        },                {
+            "fqsen": "\\Docker\\OpenAPI\\Exception\\SecretCreateInternalServerErrorException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Docker-OpenAPI-Exception-SecretCreateInternalServerErrorException.html#method___construct"
+        },                {
+            "fqsen": "\\Docker\\OpenAPI\\Exception\\SecretCreateInternalServerErrorException\u003A\u003AgetErrorResponse\u0028\u0029",
+            "name": "getErrorResponse",
+            "summary": "",
+            "url": "classes/Docker-OpenAPI-Exception-SecretCreateInternalServerErrorException.html#method_getErrorResponse"
+        },                {
+            "fqsen": "\\Docker\\OpenAPI\\Exception\\SecretCreateInternalServerErrorException\u003A\u003A\u0024errorResponse",
+            "name": "errorResponse",
+            "summary": "",
+            "url": "classes/Docker-OpenAPI-Exception-SecretCreateInternalServerErrorException.html#property_errorResponse"
+        },                {
+            "fqsen": "\\Docker\\OpenAPI\\Runtime\\Client\\EndpointTrait",
+            "name": "EndpointTrait",
+            "summary": "",
+            "url": "classes/Docker-OpenAPI-Runtime-Client-EndpointTrait.html"
+        },                {
+            "fqsen": "\\Docker\\OpenAPI\\Runtime\\Client\\EndpointTrait\u003A\u003AtransformResponseBody\u0028\u0029",
+            "name": "transformResponseBody",
+            "summary": "",
+            "url": "classes/Docker-OpenAPI-Runtime-Client-EndpointTrait.html#method_transformResponseBody"
+        },                {
+            "fqsen": "\\Docker\\OpenAPI\\Runtime\\Client\\EndpointTrait\u003A\u003AparseResponse\u0028\u0029",
+            "name": "parseResponse",
+            "summary": "",
+            "url": "classes/Docker-OpenAPI-Runtime-Client-EndpointTrait.html#method_parseResponse"
         },                {
             "fqsen": "\\",
             "name": "\\",
