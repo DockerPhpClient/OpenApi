@@ -1,5 +1,5 @@
 {
-  "name": "docker-php-client/open-api",
+  "name": "docker-client/open-api",
   "license": "MIT",
   "type": "library",
   "description": "Docker API Client generated files from OpenAPI Specification",
