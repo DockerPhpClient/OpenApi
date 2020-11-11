@@ -1,0 +1,7 @@
+/.idea/
+/vendor/
+/.phpdoc/
+/*/doc/
+composer.lock
+.php_cs.cache
+.DS
